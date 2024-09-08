@@ -11,19 +11,19 @@ int main()
     while (n != 0)
     {
         cin >> stat;
-        if (stat == "++x")
+        if (stat == "++X")
         {
             ++x;
         }
-        else if (stat == "x++")
+        else if (stat == "X++")
         {
             ++x;
         }
-        else if (stat == "--x")
+        else if (stat == "--X")
         {
             --x;
         }
-        else if (stat == "x--")
+        else if (stat == "X--")
         {
             --x;
         }
